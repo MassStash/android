@@ -19,9 +19,6 @@
   <remote name="ms"
            fetch="https://github.com/MassStash/" />
 
-  <remote name="cr"
-           fetch="https://github.com/CarbonDev/" />
-
   <remote  name="gh"
            fetch="https://github.com/"
            sync-j="4" />
@@ -300,7 +297,7 @@
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="ms" revision="cm-11.0" />
 
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="cm" revision="cm-11.0" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="cr" revision="kk" />
+  <project path="frameworks/base" name="CarbonDev/android_frameworks_base" revision="kk" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
