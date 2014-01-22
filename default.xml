@@ -31,15 +31,15 @@
            sync-j="4" />
 
   <project path="build" name="CarbonDev/android_build" groups="pdk" >
-
-  <project path="jet" name="jet" remote="ms" revision="kk-4.4" />
-
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="CarbonDev/android" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="art" name="CarbonDev/android_art" />
   <project path="bionic" name="CarbonDev/android_bionic" groups="pdk" />
+
+  <project path="jet" name="jet" remote="ms" revision="kk-4.4" />
+
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" remote="cm" revision="cm-11.0" />
