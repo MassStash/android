@@ -498,7 +498,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
 
   <!-- Vendors -->
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-11.0" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="ms" revision="cm-11.0" />
   <project path="vendor/samsung/d2-common" name="proprietary_vendor_d2-common" remote="ms" revision="kitkat" />
   <project path="vendor/samsung/d2spr" name="proprietary_vendor_d2spr" remote="ms" revision="kitkat" />
   <project path="vendor/samsung/d2att" name="proprietary_vendor_d2att" remote="ms" revision="kitkat" />
