@@ -38,7 +38,7 @@
   <project path="art" name="CarbonDev/android_art" />
   <project path="bionic" name="CarbonDev/android_bionic" groups="pdk" />
 
-  <project path="jet" name="jet" remote="ms" revision="kk-4.4" />
+  <project path="jet" name="jet" remote="ms" revision="mscarbon" />
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
