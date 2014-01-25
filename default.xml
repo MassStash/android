@@ -74,9 +74,9 @@
   <!-- Samsung gs3 Devices -->
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" groups="pdk" remote="ms" revision="cm-11.0" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" groups="pdk" remote="ms" revision="cm-11.0" />
-  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="pdk" remote="ms" revision="cm-11.0" />
+  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="pdk" remote="ms" revision="mscarbon" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2usc" groups="pdk" remote="ms" revision="cm-11.0" />
-  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" groups="pdk" remote="ms" revision="cm-11.0" />
+  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" groups="pdk" remote="ms" revision="mscarbon" />
 
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
