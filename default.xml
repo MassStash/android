@@ -17,14 +17,14 @@
            sync-j="4" />
 
   <remote name="ms"
-           fetch="https://github.com/MassStash/" />
+           fetch="https://github.com/" />
 
   <remote  name="gh"
            fetch="https://github.com/"
            sync-j="4" />
 
   <remote  name="tm"
-           fetch="git://github.com/TheMuppets/" />
+           fetch="git://github.com/" />
 
   <default revision="refs/heads/kk"
            remote="cr"
@@ -64,18 +64,18 @@
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
 
   <!-- Samsung gs4 Devices -->
-  <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" groups="pdk" remote="ms" revision="cm-11.0" />
-  <!--project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" groups="pdk" remote="ms" revision="cm-11.0" /-->
-  <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" groups="pdk" remote="ms" revision="cm-11.0" />
-  <!--project path="device/samsung/jflteusc" name="android_device_samsung_jflteusc" groups="pdk" remote="ms" revision="cm-11.0" />
-  <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" groups="pdk" remote="ms" revision="cm-11.0" /-->
-  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" groups="pdk" remote="ms" revision="cm-11.0" />
-  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" groups="pdk" remote="ms" revision="cm-11.0" />
+  <project path="device/samsung/jf-common" name="MassStash/android_device_samsung_jf-common" groups="pdk" remote="ms" revision="cm-11.0" />
+  <!--project path="device/samsung/jfltevzw" name="MassStash/android_device_samsung_jfltevzw" groups="pdk" remote="ms" revision="cm-11.0" />
+  <project path="device/samsung/jfltespr" name="MassStash/android_device_samsung_jfltespr" groups="pdk" remote="ms" revision="cm-11.0" /-->
+  <project path="device/samsung/jflteusc" name="MassStash/android_device_samsung_jflteusc" groups="pdk" remote="ms" revision="cm-11.0" />
+  <!--project path="device/samsung/jflteatt" name="MassStash/android_device_samsung_jflteatt" groups="pdk" remote="ms" revision="cm-11.0" /-->
+  <project path="device/samsung/msm8960-common" name="MassStash/android_device_samsung_msm8960-common" groups="pdk" remote="ms" revision="cm-11.0" />
+  <project path="device/samsung/qcom-common" name="MassStash/android_device_samsung_qcom-common" groups="pdk" remote="ms" revision="cm-11.0" />
   <!-- Samsung gs3 Devices -->
-  <!--project path="device/samsung/d2att" name="android_device_samsung_d2att" groups="pdk" remote="ms" revision="cm-11.0" />
-  <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" groups="pdk" remote="ms" revision="cm-11.0" /-->
-  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="pdk" remote="ms" revision="cm-11.0" />
-  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" groups="pdk" remote="ms" revision="cm-11.0" />
+  <!--project path="device/samsung/d2att" name="MassStash/android_device_samsung_d2att" groups="pdk" remote="ms" revision="cm-11.0" />
+  <project path="device/samsung/d2vzw" name="MassStash/android_device_samsung_d2vzw" groups="pdk" remote="ms" revision="cm-11.0" /-->
+  <project path="device/samsung/d2spr" name="MassStash/android_device_samsung_d2spr" groups="pdk" remote="ms" revision="cm-11.0" />
+  <project path="device/samsung/d2-common" name="MassStash/android_device_samsung_d2-common" groups="pdk" remote="ms" revision="cm-11.0" />
 
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
@@ -292,8 +292,8 @@
   <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
 
   <!-- Kernels -->
-  <project path="kernel/samsung/jf" name="platform_kernel_samsung_jf" remote="ms" revision="kk-4.4_new" />
-  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="ms" revision="cm-11.0" />
+  <project path="kernel/samsung/jf" name="MassStash/platform_kernel_samsung_jf" remote="ms" revision="kk-4.4_new" />
+  <project path="kernel/samsung/d2" name="MassStash/android_kernel_samsung_d2" remote="ms" revision="cm-11.0" />
 
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="cm" revision="cm-11.0" />
   <project path="frameworks/base" name="CarbonDev/android_frameworks_base" revision="kk" />
@@ -347,7 +347,7 @@
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="cm" revision="cm-11.0" groups="qcom_wlan" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-11.0" groups="pdk" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="ms" revision="cm-11.0" />
+  <project path="hardware/samsung" name="MassStash/android_hardware_samsung" remote="ms" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" remote="cm" revision="cm-11.0" groups="exynos5" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
@@ -497,7 +497,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
 
   <!-- Vendors -->
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-11.0" />
+  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="tm" revision="cm-11.0" />
   <project path="vendor/carbon" name="CarbonDev/android_vendor_carbon" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-11.0" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-11.0" />
