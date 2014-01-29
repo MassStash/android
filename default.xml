@@ -64,10 +64,10 @@
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
 
   <!-- Samsung gs4 Devices -->
-  <project path="device/samsung/jf-common" name="MassStash/android_device_samsung_jf-common" groups="pdk" remote="ms" revision="mscarbon" />
+  <project path="device/samsung/jf-common" name="MassStash/android_device_samsung_jf-common" groups="pdk" remote="ms" revision="cm-11.0" />
   <!--project path="device/samsung/jfltevzw" name="MassStash/android_device_samsung_jfltevzw" groups="pdk" remote="ms" revision="cm-11.0" />
   <project path="device/samsung/jfltespr" name="MassStash/android_device_samsung_jfltespr" groups="pdk" remote="ms" revision="cm-11.0" /-->
-  <project path="device/samsung/jflteusc" name="MassStash/android_device_samsung_jflteusc" groups="pdk" remote="ms" revision="mscarbon" />
+  <project path="device/samsung/jflteusc" name="MassStash/android_device_samsung_jflteusc" groups="pdk" remote="ms" revision="cm-11.0" />
   <!--project path="device/samsung/jflteatt" name="MassStash/android_device_samsung_jflteatt" groups="pdk" remote="ms" revision="cm-11.0" /-->
   <project path="device/samsung/msm8960-common" name="CyanogenMod/android_device_samsung_msm8960-common" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" groups="pdk" remote="cm" revision="cm-11.0" />
